@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Mooli&display=swap');
+.content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    background-color: chocolate;
+    display: block;
+ }
+nav a{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: "Croissant One", cursive,"Rock Salt";
+}
+nav a:hover{
+    background-color: white;
+    color: chocolate;
+    padding: 25px;
+    text-decoration: underline;
+ }
+ nav {
+    display: flex;
+    justify-content: space-around;
+} 
+
+
+h1{
+    text-align: center;
+    color: chocolate;
+    padding: 30px;
+    background-color: black;
+    font-size: 1.5em;
+    font-family: "Croissant One", cursive,"Rock Salt";
+    
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr;
+    color: black;
+    font-family: Mooli, sans-serif,Arial;
+
+}
+.main-content{
+    grid-column: 2/7;
+    grid-row: 1/1;
+    color: chocolate;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    font-family: "Croissant One", cursive,"Rock Salt";
+    margin-top: 40px;    
+    
+}
+
+.aside-content{
+    grid-column: 8/11;
+    grid-row: 1/1;
+    color: chocolate;
+    margin-top: 40px;
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+    font-family: "Croissant One", cursive,"Rock Salt";
+}
+footer {
+    text-align: center;
+    color: black;
+    padding: 20px;
+    background-color: chocolate;
+    font-family: "Croissant One", cursive,"Rock Salt";
+    margin-top: 20px;
+}
+.profile-card{
+    grid-column: 6/7;
+    grid-row: 2/2;
+    border-style: solid;
+    border-bottom: 600px;
+    border-left: 600px;
+    border-color: black;
+    
+}
+.intro{
+    grid-column: 2/6;
+    grid-row: 2/2;
+    text-align: center;
+    border-style: solid;
+    border-bottom: 600px;
+    border-right: 600px;
+    border-color: black;
+}
+.flag-card{
+    grid-column: 2/3;
+    grid-row: 5/6;
+    text-align: center;
+    border-style: solid;
+    border-top: 600px;
+    border-right: 600px;
+    border-color: black;
+    color: chocolate;
+   
+}
+.info{
+    grid-column: 3/7;
+    grid-row: 5/6;
+    text-align: center;
+    border-style: solid;
+    border-top: 600px;
+    border-left: 600px;
+    border-color: black;
+    
+}
+.location{
+    text-align: center;
+    grid-column: 1/8;
+    grid-row: 4/4;
+    color: chocolate;
+    border-style: solid;
+    border-top: 600px;
+    border-right: 100px;
+    border-bottom: 600px;
+    border-left: 100px;
+}
+.web-dev{
+    grid-column: 8/11;
+    grid-row: 2/10;
+    border-style: solid;
+    text-align: center;
+    border-color: black;
+   
+}
+.web-dev a:hover{
+    padding: 15px;
+    color: chocolate;
+}
