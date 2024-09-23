@@ -127,7 +127,6 @@ footer {
     grid-column: 8/11;
     grid-row: 2/10;
     border-style: solid;
-    text-align: center;
     border-color: black;
    
 }
