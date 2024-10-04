@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sabelo K. Mpungose">
+    <meta name="description" content="Week 3 Assignment">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Mooli&display=swap" rel="stylesheet">
+    <title>WO3 Assignment</title>
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>JAPAN</h1>
+    </header>
+    <main>
+        <div class="child-main">
+            <div class="hero">
+                <picture>
+                    <source media="(min-width: 500px)" srcset="images/pexels-auspiciousajay-18996331.webp">
+                    <source media="(min-width: 300px)" srcset="images/pexels-redrum-visuals-5819319.webp">
+                    <img src="images/pexels-redrum-visuals-5819319.webp"
+                        alt="picture of blue tang fishes in hawaii. Picture of turtle underwater in hawaii in large view."
+                        width="500" height="500">
+                </picture>
+            </div>
+            <section class="card data">
+                <h2>Data</h2>
+                <div class="col-2">
+                    <span class="label">Area:</span>
+                    <span class="value">377,973 km²</span>
+                    <span class="label">Population:</span>
+                    <span class="value">125.1 million (2022)</span>
+                    <span class="label">Capital:</span>
+                    <span class="value">Tokyo</span>
+                    <span class="label">Languages:</span>
+                    <span class="value">Japanese</span>
+                    <span class="label">Currency:</span>
+                    <span class="value">Japanese Yen</span>
+                    <span class="label">Time Zone:</span>
+                    <span class="value">Japan (GMT+9)</span>
+                    <span class="label">Calling Code:</span>
+                    <span class="value">+81</span>
+                    <span class="label">Internet TLD:</span>
+                    <span class="value">.jp</span>
+                </div>
+            </section>
+    
+            <section class="card weather">
+                <h2>Weather</h2>
+                <img src="images/1530374_weather_day_sand_sandstorm_sun_icon.svg" alt="weather icon">
+                <div class="col-2">
+                    <span class="label">Temperature:</span>
+                    <span class="value">10 C</span>
+                    <span class="label">Conditions:</span>
+                    <span class="value">Sunny</span>
+                    <span class="label">Wind:</span>
+                    <span class="value">5km</span>
+                    <span class="label">Wind Chill:</span>
+                    <span class="value" id="wcf"></span>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> Sabelo K. Mpungose - Newcastle, South Africa</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

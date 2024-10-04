@@ -1,0 +1,100 @@
+:root {
+    --red: #CF0921;
+    --white: #fff;
+    
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--red);
+}
+
+header {
+    background-color: var(--red);
+    text-align: center;
+    color: var(--white);
+    padding: 1.5rem;
+}
+
+footer {
+    background-color: var(--red);
+    padding: 1.5rem;
+    color: var(--white);
+    text-align: center;
+    font-family: "Croissant One", cursive,"Rock Salt";
+    font-weight: 400;
+    font-style: normal;
+}
+
+aside {
+    background-color: var(--red);
+    padding: 0.5rem;
+}
+
+picture img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: "Croissant One", cursive,"Rock Salt";
+    font-weight: 900;
+    font-style: normal;
+}
+
+h2 {
+    padding: 1rem;
+    font-family: Mooli, sans-serif,Arial;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.card {
+    background-color: var(--white);
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: Mooli, sans-serif,Arial;
+}
+
+.card h2 {
+    text-align: center;
+}
+
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    padding: 1rem;
+    color: var(--red);
+}
+
+.label {
+    font-size: 0.85rem;
+    text-align: right;
+    font-family: "Croissant One", cursive,"Rock Salt";
+    font-weight: 700;
+    font-style: normal;
+}
+
+.value {
+    font-size: 0.9rem;
+    font-family: "Croissant One", cursive,"Rock Salt";
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.weather img {
+    width: 100px;
+    height: 100px;
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

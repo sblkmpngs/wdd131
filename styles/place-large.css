@@ -1,0 +1,51 @@
+@media screen and (min-width: 800px) {
+    h1 {
+        font-size: 3rem;
+    }
+    main {
+        position: relative;
+    }
+
+    .card {
+        border: var(--border);
+        box-shadow: 0 0 2rem #000;
+        opacity: 0.8;
+    }
+    
+    .data {
+        position: absolute;
+        top: 2rem;
+        left: 1rem;
+    }
+    .weather {
+        position: absolute;
+        bottom: 2rem;
+        right: 1rem;
+    }
+    .weather h2::after {
+        content: '⛅';
+        position: absolute;
+        right: 1rem;
+        top: 2.1rem;
+    }
+    .weather img {
+        display: none;
+    }
+
+    h2 {
+        background-color: var(--red);
+        border-radius: 0.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        color: var(--white);
+    }
+
+    .hero {
+        z-index: 1;
+    }
+
+    .data, .weather {
+        z-index: 2;
+    }
+
+}
