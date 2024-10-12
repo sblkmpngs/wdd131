@@ -134,6 +134,7 @@ footer {
 }
 .cards {
     background-color: chocolate;
+    color: white;
     border: 1.5px solid white;
     margin: 1rem auto;
     max-width: 400px;
