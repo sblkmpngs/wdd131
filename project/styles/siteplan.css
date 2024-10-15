@@ -1,0 +1,28 @@
+:root {
+    --red: #CF0921;
+    --white: #fff;
+    --black:#000;
+    
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+    font-family: Mooli, sans-serif,Arial;
+}
+
+header {
+    background-color: var(--red);
+    text-align: center;
+    color: var(--white);
+    padding: 1rem;
+    font-family: "Croissant One", cursive,"Rock Salt";
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Mooli, sans-serif,Arial;
+    text-align: center;
+    padding: 0.5rem;
+    
+}
