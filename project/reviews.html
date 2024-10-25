@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming | The Gaming Network | Home</title>
+    <meta name="author" content="Sabelo K. Mpungose">
+    <meta name="description" content="week06 assignment">
+    <link rel="stylesheet" href="styles/gaming-network.css">
+    <link rel="stylesheet" href="styles/gaming-network-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Mooli&display=swap" rel="stylesheet">
+    <script src="scripts/reviews.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 id="title">Gaming Network</h1>
+        <div class="ham-button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <a href="https://github.com/sblkmpngs/wdd131/project/index.html" >Home</a>
+            <a href="https://github.com/sblkmpngs/wdd131/project/updates.html">Updates</a>
+            <a href="https://github.com/sblkmpngs/wdd131/project/reviews.html">Reviews</a>
+        </nav>
+    </header>
+    <main>
+        <form action="review.html" method="get" class="productReviewForm">
+            <h2 id="page-title">Updates</h2>
+            <p>Please Insert Your Name:</p>
+            <label for="name">
+                <input type="text" name="name" id="name">
+            </label>
+            <p>What did you like in the website? <br>
+                (Check all that apply)</p>
+            <label for="ease"><input type="checkbox" name="features" id="ease" value="ease">
+                Ease of Use</label>
+            <label for="performance"><input type="checkbox" name="features" id="performance" value="performance">
+                Performance</label>
+            <label for="design"><input type="checkbox" name="features" id="design" value="design">
+                Design</label>
+                <label for="nothing"><input type="checkbox" name="features" id="nothing" value="nothing">
+                    Nothing</label>
+            <p>Write a Comment:</p>
+            <label for="review">
+                <textarea name="review" id="review" cols="30" rows="10"></textarea>
+            </label>
+            <p>Rate our Website:</p>
+            <div class="ratingBox">
+                <label class="rating" for="rating1">&star;
+                    <input type="radio" name="rating" id="rating1" value="1" required>
+                </label>
+                <label class="rating" for="rating2">&star;&star;
+                    <input type="radio" name="rating" id="rating2" value="2" required>
+                </label>
+                <label class="rating" for="rating3">&star;&star;&star;
+                    <input type="radio" name="rating" id="rating3" value="3" required>
+                </label>
+                <label class="rating" for="rating4">&star;&star;&star;&star;
+                    <input type="radio" name="rating" id="rating4" value="4" required>
+                </label>
+                <label class="rating" for="rating5">&star;&star;&star;&star;&star;
+                    <input type="radio" name="rating" id="rating5" value="5" required>
+                </label>
+            </div>
+            
+            
+            <button type="submit">Post Review</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> Sabelo K. Mpungose - Newcastle, South Africa</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+
+</html>
